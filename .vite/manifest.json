@@ -12,7 +12,9 @@
       "_vue.js"
     ],
     "dynamicImports": [
-      "src/views/AboutView.vue"
+      "src/views/ServicesView.vue",
+      "src/views/PlayersView.vue",
+      "src/views/ContactView.vue"
     ],
     "assets": [
       "assets/bootstrap-icons.woff2",
@@ -27,10 +29,30 @@
     "file": "assets/bootstrap-icons.woff2",
     "src": "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2"
   },
-  "src/views/AboutView.vue": {
-    "file": "assets/AboutView.js",
-    "name": "AboutView",
-    "src": "src/views/AboutView.vue",
+  "src/views/ContactView.vue": {
+    "file": "assets/ContactView.js",
+    "name": "ContactView",
+    "src": "src/views/ContactView.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_vue.js"
+    ]
+  },
+  "src/views/PlayersView.vue": {
+    "file": "assets/PlayersView.js",
+    "name": "PlayersView",
+    "src": "src/views/PlayersView.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_vue.js"
+    ]
+  },
+  "src/views/ServicesView.vue": {
+    "file": "assets/ServicesView.js",
+    "name": "ServicesView",
+    "src": "src/views/ServicesView.vue",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
