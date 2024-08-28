@@ -1,0 +1,31 @@
+{
+  "_vue.js": {
+    "file": "assets/vue.js",
+    "name": "vue"
+  },
+  "index.html": {
+    "file": "assets/index.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_vue.js"
+    ],
+    "assets": [
+      "assets/bootstrap-icons.woff2",
+      "assets/bootstrap-icons.woff"
+    ]
+  },
+  "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff": {
+    "file": "assets/bootstrap-icons.woff",
+    "src": "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff"
+  },
+  "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2": {
+    "file": "assets/bootstrap-icons.woff2",
+    "src": "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2"
+  },
+  "style.css": {
+    "file": "assets/style.css",
+    "src": "style.css"
+  }
+}
